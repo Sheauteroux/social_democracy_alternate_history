@@ -373,6 +373,18 @@ go-to: advisor_menu
 
 Hermann Müller is now an advisor.
 
+@add_peretz
+title: Amir Peretz
+subtitle: Amir Peretz placeholder
+is-card: true
+card-image: img/portraits/PeretzAmir.jpg
+tags: center_advisor
+view-if: peretz_advisor = 0 and n_advisors < 3 and centrists_resign = 0
+on-arrival: peretz_advisor = 1; n_advisors += 1
+go-to: advisor_menu
+
+Amir Peretz is now an advisor.
+
 @add_breitscheid
 title: Rudolf Breitscheid
 subtitle: Rudolf Breitscheid comes from a well-educated background and is one of our foreign policy leaders. {!<br><br>!}[? if difficulty < 0 : Actions - International Relations, Foreign Policy, Party Discipline ?]
