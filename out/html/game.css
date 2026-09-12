@@ -555,6 +555,9 @@ table {
 }
 
 /* Styles for parties */
+.seat.likud {
+    fill: #1F5AA5;
+}
 .seat.kpd {
     fill: #8B0000;
 }
