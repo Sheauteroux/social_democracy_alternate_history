@@ -1264,6 +1264,18 @@ go-to: ministries
 
 Rudolf Wissell of the SPD has been appointed labor minister.
 
+@aliyah
+title: Aliyah Ministry
+subtitle: This is not our usual domain. The Aliyah Ministry deals with Jewish immigration to Israel.
+unavailable-subtitle: We do not have enough leverage.
+tags: mins_1928
+choose-if: leverage >= 5
+view-if: aliyah_minister_party != "Avoda"
+on-arrival: leverage -= 5; aliyah_minister_party = "Avoda"; aliyah_minister = "Wissell"
+go-to: ministries
+
+Placeholder of HaAvoda has been appointed aliyah minister.
+
 @interior
 title: Interior Ministry
 subtitle: Taking the Interior Ministry is expected of us. The Interior Ministry controls domestic security.
