@@ -123,6 +123,7 @@ Pfülf has been removed as an advisor. The Reformist faction disapproves.
 @remove_gabbay
 title: Remove Gabbay
 view-if: gabbay_advisor = 1
+unavailable-subtitle: You can't remove the party leader.
 choose-if: labor_leader != "Gabbay"
 tags: remove_advisor
 on-arrival: gabbay_advisor = 0; labor_dissent += 5; n_advisors -= 1
