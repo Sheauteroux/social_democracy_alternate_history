@@ -20,7 +20,7 @@ if (Q.economic_growth) {
 
 Resources available: [+ resources +]
 
-Avoda position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
+[+ labor_name +] position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
 [? if in_weimar_coalition and spd_in_government: Weimar Coalition ?][? if in_grand_coalition and spd_in_government: Grand Coalition ?][? if in_popular_front and spd_in_government: Popular Front ?][? if in_left_front and spd_in_government: Left Front ?][? if in_spd_majority and spd_in_government: SPD majority ?][? if in_minority_government and spd_in_government: minority government ?][? if in_emergency_government and spd_in_government: emergency government ?]
 
 [? if spd_in_government and not in_spd_majority and not in_left_front : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?]
@@ -40,7 +40,7 @@ Knesset composition:
 # 1928: 9, 1930: 5
 {!<span class="tooltip-text" title="Likud – National Liberal Movement">Likud</span>!}: [+ likud_r +]%
 # 1928: 30, 1930: 25, 1932: 22
-{!<span class="tooltip-text" title="Israeli Labor Party">HaAvoda</span>!}: [+ spd_r +]%
+{!<span class="tooltip-text" title="Israeli Labor Party">[+ labor_name +]</span>!}: [+ spd_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
 {!<span class="tooltip-text" title="Blue and White">Kahol Lavan</span>!}: [+ z_r +]%
@@ -92,7 +92,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">NSDAP</span>!}: [+ nsdap_relation : relationships +]
 
-= Internal Factions of HaAvoda
+= Internal Factions of [+ labor_name +]
 
 {!<span class="tooltip-text" title="The Progressives are interested in social justice, Jewish-Arab cooperation, and a two-state solution.">Progressive</span>!} strength: [+ left_strength : strength +], dissent: [+ left_dissent : dissent +]
 
@@ -164,7 +164,7 @@ Q.socialism_disp = Math.round(Q.socialism);
 
 Likud: [+ likud_votes +]%
 
-HaAvoda: [+ spd_votes +]%
+[+ labor_name +]: [+ spd_votes +]%
 
 [? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
 
