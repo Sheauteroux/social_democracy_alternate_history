@@ -332,9 +332,8 @@ Q.old_sapd_r = 0;
 Q.electoral_threshold = 3.25;
 
 // for changing the DDP's name to the DStP
-Q.ddp_name = "DDP";
+Q.ddp_name = "Ra'am-Balad";
 Q.kpd_name = "Hadash-Ta'al";
-Q.raam_name = "Ra'am-Balad";
 Q.yeshatid_name = "Yesh Atid";
 Q.labor_name = "HaAvoda";
 Q.dnvp_name = "URWP";
