@@ -220,7 +220,7 @@ data = data.concat([
         "id": "z",
         "legend": "Kahol Lavan",
         "name": "Kahol Lavan",
-        "seats": Math.round(Q.z_r1.2),
+        "seats": Math.round(Q.z_r*1.2),
     },
     {
         "id": "dvp",
@@ -289,9 +289,9 @@ go-to: coalition_menu
  
 {!<tr><td><div class="box" style='background-color:#a0a0a0'> </div> !} Others: {!</td><td>!} [+ other_r +] % {!</td><td>!} [+ str_change_other +] {!</td></tr>!}
 
-{!<tr><td><div class="box" style='background-color:#3f7bc1'> </div> !} [+ dnvp_name +]: {!</td><td>!} [+ dnvp_r +]% {!</td><td>!} [+ str_change_dnvp +] {!</td></tr>!}
+{!<tr><td><div class="box" style='background-color:#8CC74B'> </div> !} [+ dnvp_name +]: {!</td><td>!} [+ dnvp_r +]% {!</td><td>!} [+ str_change_dnvp +] {!</td></tr>!}
 
-{!<tr><td><div class="box" style='background-color:#954B00'> </div> !} NSDAP: {!</td><td>!} [+ nsdap_r +]% {!</td><td>!} [+ str_change_nsdap +] {!</td></tr>!}
+[? if tkuma_formed :  {!<tr><td><div class="box" style='background-color:#214785'> </div> !} RZP: {!</td><td>!} [+ nsdap_r +]% {!</td><td>!} [+ str_change_nsdap +] {!</td></tr>!} ?]
 {!</table>!}
 
 **Potential coalitions:**
