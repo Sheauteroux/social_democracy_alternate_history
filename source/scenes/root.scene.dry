@@ -232,6 +232,7 @@ Q.parties = ['likud', 'spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other']
 
 // TODO: add 'sapd' later on
 Q.sapd_formed = 0;
+Q.yeshatid_formed = 0;
 
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
@@ -334,6 +335,9 @@ Q.electoral_threshold = 3.25;
 Q.ddp_name = "DDP";
 Q.kpd_name = "Hadash-Ta'al";
 Q.raam_name = "Ra'am-Balad";
+Q.yeshatid_name = "Yesh Atid";
+Q.labor_name = "HaAvoda";
+Q.dnvp_name = "URWP";
 
 // array of objects of the form {date: Date(), spd: 10, kpd: 12, ...} for each election
 Q.election_records = [];
