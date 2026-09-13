@@ -328,6 +328,9 @@ Q.old_other_r = 9;
 Q.sapd_r = 0;
 Q.old_sapd_r = 0;
 
+// Threshold
+Q.electoral_threshold = 3.25;
+
 // for changing the DDP's name to the DStP
 Q.ddp_name = "DDP";
 
