@@ -29,6 +29,8 @@ Resources available: [+ resources +]
 
 Internal dissent: [+ dissent_percent : dissent +]
 
+[+ labor_name +] Leader: [+ labor_leader +] ([+ labor_leader_faction +])
+
 = Government
 
 President: [+ president +]
