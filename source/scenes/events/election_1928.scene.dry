@@ -1375,8 +1375,8 @@ go-to: ministries
 
 @drop_aliyah
 title: Drop the Aliyah Ministry.
-view-if: labor_minister_party = "[+ labor_name +]"
-on-arrival: labor_minister_party = "Z"; labor_minister = "Stegerwald"; leverage += 5;
+view-if: aliyah_minister_party = "[+ labor_name +]"
+on-arrival: aliyah_minister_party = "Z"; labor_minister = "Stegerwald"; leverage += 5;
 tags: drop_mins_1928
 go-to: ministries
 
