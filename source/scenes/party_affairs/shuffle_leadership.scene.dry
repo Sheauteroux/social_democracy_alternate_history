@@ -120,6 +120,16 @@ Pfülf has been removed as an advisor. The Reformist faction disapproves.
 
 # labor
 
+@remove_gabbay
+title: Remove Gabbay
+view-if: gabbay_advisor = 1
+choose-if: labor_leader != "Gabbay"
+tags: remove_advisor
+on-arrival: gabbay_advisor = 0; labor_dissent += 5; n_advisors -= 1
+go-to: rm_main
+
+Gabbay has been removed as an advisor. The Liberal faction disapproves.
+
 @remove_leipart
 title: Remove Leipart
 view-if: leipart_advisor = 1
