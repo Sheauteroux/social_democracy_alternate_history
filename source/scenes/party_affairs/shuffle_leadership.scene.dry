@@ -308,10 +308,10 @@ tags: center_advisor, left_advisor, reformist_advisor, labor_advisor, neorev_adv
 frequency: 1
 
 
-- @centrist: Add Centrists
-- @left: Add Leftists
-- @reformist: Add Reformists
-- @labor: Add Labor
+- @centrist: Add Laborists
+- @left: Add Progressives
+- @reformist: Add Moderates
+- @labor: Add Liberals
 - @neorev: Add Neorevisionists
 - @nonfactional: Add non-factional advisors
 - @rm_main: Remove advisors instead.
@@ -525,6 +525,18 @@ Anna Siemsen is now an advisor.
 
 
 # labor
+
+@add_gabbay
+title: Avi Gabbay
+subtitle: Gabbay is a Businessman, a former member of Kulanu, and a former government minister. edit later tung tung tung sahur AAAA {!<br><br>!}[? if difficulty < 0 : Actions - Organizing Workers, Addressing the Economic Crisis ?]
+is-card: true
+card-image: img/portraits/GabbayAvi.jpg
+tags: labor_advisor
+view-if: gabbay_advisor = 0 and n_advisors < 3 and unions_independent = 0
+on-arrival: gabbay_advisor = 1; n_advisors += 1; labor_strength += 5
+go-to: advisor_menu
+
+Avi Gabbay is now an advisor.
 
 @add_leipart
 title: Theodor Leipart
