@@ -332,6 +332,8 @@ Q.electoral_threshold = 3.25;
 
 // for changing the DDP's name to the DStP
 Q.ddp_name = "DDP";
+Q.kpd_name = "Hadash-Ta'al";
+Q.raam_name = "Ra'am-Balad";
 
 // array of objects of the form {date: Date(), spd: 10, kpd: 12, ...} for each election
 Q.election_records = [];
