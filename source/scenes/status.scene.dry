@@ -40,14 +40,14 @@ Knesset composition:
 # 1928: 9, 1930: 5
 {!<span class="tooltip-text" title="Likud – National Liberal Movement">Likud</span>!}: [+ likud_r +]%
 # 1928: 30, 1930: 25, 1932: 22
-{!<span class="tooltip-text" title="Israeli Labor Party">!}[? if not labor_name: HaAvoda?][? if labor_name != 0 : [+ labor_name +]?]{!</span>!}</span>!}: [+ spd_r +]%
+{!<span class="tooltip-text" title="Israeli Labor Party">!}[? if not labor_name: HaAvoda?][? if labor_name != 0 : [+ labor_name +]?]{!</span>!}</span>: [+ spd_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
 {!<span class="tooltip-text" title="Blue and White">Kahol Lavan</span>!}: [+ z_r +]%
 # 1928: 10, 1930: 13
-{!<span class="tooltip-text" title="Democratic Front for Peace and Equality">!}[? if not kpd_name: Hadash-Ta'al?][? if kpd_name != 0 : [+ kpd_name +]?]{!</span>!}</span>!}: [+ kpd_r +]%
+{!<span class="tooltip-text" title="Democratic Front for Peace and Equality">!}[? if not kpd_name: Hadash-Ta'al?][? if kpd_name != 0 : [+ kpd_name +]?]{!</span>!}</span>: [+ kpd_r +]%
 # 1928: 5, 1930: 4 (as DstP)
-{!<span class="tooltip-text" title="German Democratic Party">!}[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]{!</span>!}: [+ ddp_r +]%
+{!<span class="tooltip-text" title="United Arab List-National Democratic Alliance">!}[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]{!</span>!}: [+ ddp_r +]%
 # 1928: 9, 1930: 5
 {!<span class="tooltip-text" title="Israel is Our Home">Yisrael Beiteinu</span>!}: [+ dvp_r +]%
 # 1928: 14, 1930: 7
@@ -82,11 +82,11 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="Blue and White">Kahol Lavan</span>!}: [+ z_relation : relationships +]
 
-{!<span class="tooltip-text" title="German Democratic Party">!}[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]{!</span>!}: [+ ddp_relation : relationships +]
+{!<span class="tooltip-text" title="United Arab List-National Democratic Alliance">!}[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]{!</span>!}: [+ ddp_relation : relationships +]
 
 {!<span class="tooltip-text" title="Israel is Our Home">Yisrael Beiteinu</span>!}: [+ dvp_relation : relationships +]
 
-{!<span class="tooltip-text" title="Democratic Front for Peace and Equality">[+ kpd_name +]</span>!}: [+ kpd_relation : relationships +]
+{!<span class="tooltip-text" title="Democratic Front for Peace and Equality">!}[? if not kpd_name: Hadash-Ta'al?][? if kpd_name != 0 : [+ kpd_name +]?]{!</span>!}: [+ kpd_relation : relationships +]
 
 {!<span class="tooltip-text" title="German National People's Party">DNVP</span>!}: [+ dnvp_relation : relationships +]
 
