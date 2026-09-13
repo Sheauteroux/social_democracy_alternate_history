@@ -567,13 +567,10 @@ table {
     stroke-width: 1.5px;
 }
 .seat.ddp {
-    fill: #DCCA4A;
+    fill: #15793D;
 }
 .seat.z {
     fill: #04BEEF;
-}
-.seat.bvp {
-    fill: #69A2BE;
 }
 .seat.dvp {
     fill: #98C2E0;
