@@ -343,14 +343,15 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.president = "Hindenburg";
-// starting chancellor: Wilhelm Marx
-Q.chancellor = "Marx";
-Q.chancellor_party = 'Z';
+Q.president = "Rivlin";
+// starting Prime Minister: Benjamin Netanyahu
+Q.chancellor = "Netanyahu";
+Q.chancellor_party = 'Likud';
+Q.likud_in_government = 1;
 Q.spd_in_government = 0;
-Q.z_in_government = 1;
+Q.z_in_government = 0;
 Q.ddp_in_government = 0;
-Q.dvp_in_government = 1;
+Q.dvp_in_government = 0;
 Q.dnvp_in_government = 1;
 Q.kpd_in_government = 0;
 Q.nsdap_in_government = 0;
@@ -385,7 +386,7 @@ Q.spd_toleration = 0;
 Q.minority_government = 0;
 
 // ministries - which parties control the ministries?
-// starting with the 4th Marx cabinet https://en.wikipedia.org/wiki/Fourth_Marx_cabinet
+// starting with the https://en.wikipedia.org/wiki/Thirty-fourth_government_of_Israel
 // is the agricultural ministry useful at all?
 Q.foreign_minister = 'Streseman';
 Q.foreign_minister_party = 'DVP';
