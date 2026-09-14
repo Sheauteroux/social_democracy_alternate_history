@@ -260,7 +260,7 @@ Q.old_middle_z = 5;
 Q.old_middle_ddp= 10;
 Q.old_middle_dvp = 25;
 Q.old_middle_dnvp = 25;
-Q.old_middle_nsdap = 10;
+Q.old_middle_nsdap = 0;
 Q.old_middle_other = 10;
 
 Q.new_middle_likud = 10;
@@ -270,7 +270,7 @@ Q.new_middle_z = 10;
 Q.new_middle_ddp= 25;
 Q.new_middle_dvp = 25;
 Q.new_middle_dnvp = 10;
-Q.new_middle_nsdap = 5;
+Q.new_middle_nsdap = 0;
 Q.new_middle_other = 15;
 
 Q.rural_likud = 10;
@@ -280,7 +280,7 @@ Q.rural_z = 5;
 Q.rural_ddp= 5;
 Q.rural_dvp = 15;
 Q.rural_dnvp = 45;
-Q.rural_nsdap = 5;
+Q.rural_nsdap = 0;
 Q.rural_other = 10;
 
 Q.unemployed_likud = 10;
@@ -290,7 +290,7 @@ Q.unemployed_z = 1;
 Q.unemployed_ddp = 0;
 Q.unemployed_dvp = 0;
 Q.unemployed_dnvp = 5;
-Q.unemployed_nsdap = 15;
+Q.unemployed_nsdap = 0;
 Q.unemployed_other = 9;
 
 Q.catholics_likud = 10;
@@ -317,7 +317,7 @@ Q.z_r = 17;
 Q.ddp_r = 6;
 Q.dvp_r = 10;
 Q.dnvp_r = 20;
-Q.nsdap_r = 3;
+Q.nsdap_r = 0;
 Q.other_r = 9;
 
 // diff from prev
@@ -328,7 +328,7 @@ Q.old_z_r = 17;
 Q.old_ddp_r = 6;
 Q.old_dvp_r = 10;
 Q.old_dnvp_r = 20;
-Q.old_nsdap_r = 3;
+Q.old_nsdap_r = 0;
 Q.old_other_r = 9;
 
 // sapd isn't formed yet, but it may be formed
