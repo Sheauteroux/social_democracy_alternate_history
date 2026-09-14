@@ -575,6 +575,12 @@ table {
 .seat.dvp {
     fill: #98C2E0;
 }
+.seat.taal {
+    fill: #F9D104;
+}
+.seat.balad {
+    fill: #F6600C;
+}
 .seat.other {
     fill: #909090;
 }
