@@ -291,7 +291,7 @@ go-to: coalition_menu
 
 {!<tr><td><div class="box" style='background-color:#8CC74B'> </div> !} [+ dnvp_name +]: {!</td><td>!} [+ dnvp_r +]% {!</td><td>!} [+ str_change_dnvp +] {!</td></tr>!}
 
-[? if tkuma_formed : {!<tr><td><div class="box" style='background-color:#214785'> </div> !} RZP: {!</td><td>!} [+ nsdap_r +]% {!</td><td>!} [+ str_change_nsdap +] {!</td></tr>!} ?]
+[? if tkuma_formed : {!<tr><td><div class="box" style='background-color:#FF4500'> </div> !} Otzma Yehudit: {!</td><td>!} [+ nsdap_r +]% {!</td><td>!} [+ str_change_nsdap +] {!</td></tr>!} ?]
 {!</table>!}
 
 **Potential coalitions:**
