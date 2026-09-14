@@ -55,7 +55,7 @@ Knesset composition:
 # 1928: 14, 1930: 7
 {!<span class="tooltip-text" title="Union of Right-Wing Parties">!}[? if not dnvp_name: URWP?][? if dnvp_name != 0 : [+ dnvp_name +]?]{!</span>!}</span>: [+ dnvp_r +]%
 # 1928: 3, 1930: 18
-{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">NSDAP</span>!}: [+ nsdap_r +]%
+[? if tkuma_formed: {!<span class="tooltip-text" title="Religious Zionist Party">RZP</span>!}: [+ nsdap_r +]% ?]
 # 1928: 9, 1930: 10
 Others: [+ other_r +]%
 
@@ -180,22 +180,22 @@ Yisrael Beiteinu: [+ dvp_votes +]%
 
 [+ dnvp_name +]: [+ dnvp_votes +]%
 
-[? if sapd_formed: RZP: [+ nsdap_votes +]% ?]
+[? if tkuma_formed: RZP: [+ nsdap_votes +]% ?]
 
 Others: [+ other_votes +]%
 
 **Detailed results for each demographic**
 
-Working Class: Likud: [+ workers_likud_display +]%, [+ labor_name +]: [+ workers_spd_display +]%, Kahol Lavan: [+ workers_z_display +]%, [+ kpd_name +]: [+ workers_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ workers_ddp_display +]%, Yisrael Beiteinu: [+ workers_dvp_display +]%; [+ dnvp_name +]: [+ workers_dnvp_display +]%, NSDAP: [+ workers_nsdap_display +]%, Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
+Working Class: Likud: [+ workers_likud_display +]%, [+ labor_name +]: [+ workers_spd_display +]%, Kahol Lavan: [+ workers_z_display +]%, [+ kpd_name +]: [+ workers_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ workers_ddp_display +]%, Yisrael Beiteinu: [+ workers_dvp_display +]%; [+ dnvp_name +]: [+ workers_dnvp_display +]%, [? if tkuma_formed: RZP: [+ workers_nsdap_display +]%, ?] Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
 
-Middle Class: Likud: [+ new_middle_likud_display +]%, [+ labor_name +]: [+ new_middle_spd_display +]%, Kahol Lavan: [+ new_middle_z_display +]%, [+ kpd_name +]: [+ new_middle_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ new_middle_ddp_display +]%, Yisrael Beiteinu: [+ new_middle_dvp_display +]%; [+ dnvp_name +]: [+ new_middle_dnvp_display +]%, NSDAP: [+ new_middle_nsdap_display +]%, Others: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?]
+Middle Class: Likud: [+ new_middle_likud_display +]%, [+ labor_name +]: [+ new_middle_spd_display +]%, Kahol Lavan: [+ new_middle_z_display +]%, [+ kpd_name +]: [+ new_middle_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ new_middle_ddp_display +]%, Yisrael Beiteinu: [+ new_middle_dvp_display +]%; [+ dnvp_name +]: [+ new_middle_dnvp_display +]%, [? if tkuma_formed: RZP: [+ new_middle_nsdap_display +]%, ?] Others: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?]
 
-Upper Class: Likud: [+ old_middle_likud_display +]%, [+ labor_name +]: [+ old_middle_spd_display +]%, Kahol Lavan: [+ old_middle_z_display +]%, [+ kpd_name +]: [+ old_middle_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ old_middle_ddp_display +]%, Yisrael Beiteinu: [+ old_middle_dvp_display +]%; [+ dnvp_name +]: [+ old_middle_dnvp_display +]%, NSDAP: [+ old_middle_nsdap_display +]%, Others: [+ old_middle_other_display +]% [? if sapd_formed: SAPD: [+ old_middle_sapd_display +]% ?]
+Upper Class: Likud: [+ old_middle_likud_display +]%, [+ labor_name +]: [+ old_middle_spd_display +]%, Kahol Lavan: [+ old_middle_z_display +]%, [+ kpd_name +]: [+ old_middle_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ old_middle_ddp_display +]%, Yisrael Beiteinu: [+ old_middle_dvp_display +]%; [+ dnvp_name +]: [+ old_middle_dnvp_display +]%, [? if tkuma_formed: RZP: [+ old_middle_nsdap_display +]%, ?] Others: [+ old_middle_other_display +]% [? if sapd_formed: SAPD: [+ old_middle_sapd_display +]% ?]
 
-Arabs: Likud: [+ rural_likud_display +]%, [+ labor_name +]: [+ rural_spd_display +]%, Kahol Lavan: [+ rural_z_display +]%, [+ kpd_name +]: [+ rural_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ rural_ddp_display +]%, Yisrael Beiteinu: [+ rural_dvp_display +]%; [+ dnvp_name +]: [+ rural_dnvp_display +]%, NSDAP: [+ rural_nsdap_display +]%, Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
+Arabs: Likud: [+ rural_likud_display +]%, [+ labor_name +]: [+ rural_spd_display +]%, Kahol Lavan: [+ rural_z_display +]%, [+ kpd_name +]: [+ rural_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ rural_ddp_display +]%, Yisrael Beiteinu: [+ rural_dvp_display +]%; [+ dnvp_name +]: [+ rural_dnvp_display +]%, [? if tkuma_formed: RZP: [+ rural_nsdap_display +]%, ?] Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
 
-Unemployed: Likud: [+ unemployed_likud_display +]%, [+ labor_name +]: [+ unemployed_spd_display +]%, Kahol Lavan: [+ unemployed_z_display +]%, [+ kpd_name +]: [+ unemployed_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ unemployed_ddp_display +]%, Yisrael Beiteinu: [+ unemployed_dvp_display +]%; [+ dnvp_name +]: [+ unemployed_dnvp_display +]%, NSDAP: [+ unemployed_nsdap_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
+Unemployed: Likud: [+ unemployed_likud_display +]%, [+ labor_name +]: [+ unemployed_spd_display +]%, Kahol Lavan: [+ unemployed_z_display +]%, [+ kpd_name +]: [+ unemployed_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ unemployed_ddp_display +]%, Yisrael Beiteinu: [+ unemployed_dvp_display +]%; [+ dnvp_name +]: [+ unemployed_dnvp_display +]%, [? if tkuma_formed: RZP: [+ unemployed_nsdap_display +]%, ?] Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
 
-Haredim: Likud: [+ catholic_likud_display +]%, SPD: [+ catholics_spd_display +]%, Kahol Lavan: [+ catholics_z_display +]%, [+ kpd_name +]: [+ catholics_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ catholics_ddp_display +]%, Yisrael Beiteinu: [+ catholics_dvp_display +]%; [+ dnvp_name +]: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
+Haredim: Likud: [+ catholic_likud_display +]%, SPD: [+ catholics_spd_display +]%, Kahol Lavan: [+ catholics_z_display +]%, [+ kpd_name +]: [+ catholics_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ catholics_ddp_display +]%, Yisrael Beiteinu: [+ catholics_dvp_display +]%; [+ dnvp_name +]: [+ catholics_dnvp_display +]%, [? if tkuma_formed: RZP: [+ catholics_nsdap_display +]%, ?] Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
 
-International Support for Zionism: [+ pro_republic_disp +]%
+International Support for Israel: [+ pro_republic_disp +]%
