@@ -229,6 +229,18 @@ data = data.concat([
         "seats": Math.round(Q.dvp_r*1.2),
     },
     {
+        "id": "taal",
+        "legend": "Ta'al",
+        "name": "Ta'al",
+        "seats": Math.round(Q.taal_r*1.2),
+    },
+    {
+        "id": "balad",
+        "legend": "Balad",
+        "name": "Balad",
+        "seats": Math.round(Q.balad_r*1.2),
+    },
+    {
         "id": "other",
         "legend": "Other",
         "name": "Other",
@@ -286,6 +298,10 @@ go-to: coalition_menu
 {!<tr><td><div class="box" style='background-color:#04BEEF'> </div> !} Kahol Lavan: {!</td><td>!} [+ z_r +]% {!</td><td>!} [+ str_change_z +] {!</td></tr>!}
 
 {!<tr><td><div class="box" style='background-color:#98C2E0'> </div> !} Yisrael Beiteinu: {!</td><td>!} [+ dvp_r +]% {!</td><td>!} [+ str_change_dvp +] {!</td></tr>!}
+
+{!<tr><td><div class="box" style='background-color:#F9D104'> </div> !}Ta'al: {!</td><td>!} [+ taal_r +]% {!</td><td>!} [+ str_change_taal +] {!</td></tr>!}
+
+{!<tr><td><div class="box" style='background-color:#F6600C'> </div> !}Balad: {!</td><td>!} [+ balad_r +]% {!</td><td>!} [+ str_change_balad +] {!</td></tr>!}
  
 {!<tr><td><div class="box" style='background-color:#a0a0a0'> </div> !} Others: {!</td><td>!} [+ other_r +] % {!</td><td>!} [+ str_change_other +] {!</td></tr>!}
 
