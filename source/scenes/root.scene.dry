@@ -586,7 +586,7 @@ Q.wels_advisor = 1; // Otto Wels
 Q.gabbay_advisor = 1; // Avi Gabbay
 Q.peretz_advisor = 1; // Amir Peretz
 
-!}
+// !}
 
 set-bg: img/map_2.jpg
 new-page: true
