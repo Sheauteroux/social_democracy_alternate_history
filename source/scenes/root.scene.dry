@@ -17,7 +17,7 @@ go-to: start_menu_2
 
 
 @start
-on-arrival: {
+on-arrival: {!
 !Q.started = 1;
 // time elapsed (in months)
 Q.time = 1;
@@ -584,7 +584,7 @@ Q.hindenburg_dismissal_timer = 0;
 // all the initial advisors are centrists.
 Q.gabbay_advisor = 1; // Avi Gabbay
 Q.peretz_advisor = 1; // Amir Peretz
-}
+!}
 set-bg: img/map_2.jpg
 new-page: true
 
@@ -613,7 +613,7 @@ go-to: 1928_main
 
 @1928_historical
 subtitle: Saving, loading, and polls will be disabled. [? if not achievement_game_completed: Not recommended for a first playthrough. ?]
-on-arrival: {
+on-arrival: {!
 Q.difficulty = 2;
 Q.historical_mode = 1;
 Q.resources = 2;
@@ -628,7 +628,7 @@ Q.kpd_relation = 16;
 Q.dvp_relation = 31;
 Q.budget = 2;
 this.state.disableSaves = true;
-}
+!}
 go-to: 1928_main
 
 @1928_main
