@@ -493,8 +493,6 @@ Q.lower_tax_rates = 0;
 Q.upper_tax_rates = 0;
 Q.tariffs = 0;
 
-Q.electoral_threshold = 3;
-
 // our conduct in the government, and the conduct of our coalition opponents.
 // did the SPD vote against the previous government in a vote of no confidence?
 Q.spd_no_confidence = 0;
@@ -624,6 +622,7 @@ Q.hirschfeld_advisor = 0; // Magnus Hirschfeld
 Q.radbruch_advisor = 0; // Gustav Radbruch
 Q.stampfer_advisor = 0; // Friedrich Stampfer/
 !}
+
 set-bg: img/map_2.jpg
 new-page: true
 
