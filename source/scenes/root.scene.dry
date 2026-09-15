@@ -17,7 +17,7 @@ go-to: start_menu_2
 
 
 @start
-on-arrival: {!
+on-arrival: {
 Q.started = 1;
 // time elapsed (in months)
 Q.time = 1;
@@ -613,7 +613,7 @@ go-to: 1928_main
 
 @1928_historical
 subtitle: Saving, loading, and polls will be disabled. [? if not achievement_game_completed: Not recommended for a first playthrough. ?]
-on-arrival: {!
+on-arrival: {
 Q.difficulty = 2;
 Q.historical_mode = 1;
 Q.resources = 2;
