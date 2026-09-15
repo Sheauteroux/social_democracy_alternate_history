@@ -582,11 +582,9 @@ Q.hindenburg_dismissal_timer = 0;
 
 
 // all the initial advisors are centrists.
-Q.wels_advisor = 1; // Otto Wels
 Q.gabbay_advisor = 1; // Avi Gabbay
 Q.peretz_advisor = 1; // Amir Peretz
-
-// !}
+!}
 
 set-bg: img/map_2.jpg
 new-page: true
