@@ -352,7 +352,7 @@ Q.sapd_r = 0;
 Q.old_sapd_r = 0;
 
 // Threshold
-Q.electoral_threshold = 3;
+Q.electoral_threshold = 0;
 
 // for changing the DDP's name to the DStP
 Q.ddp_name = "Ra'am-Balad";
