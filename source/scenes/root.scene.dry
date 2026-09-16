@@ -576,9 +576,9 @@ Q.kpd_ultimatum_timer = 0;
 Q.march_on_berlin_timer = 0;
 Q.hindenburg_dismissal_timer = 0;
 
-// all the initial advisors are centrists.
-Q.gabbay_advisor = 1; // Avi Gabbay
-Q.peretz_advisor = 1; // Amir Peretz
+Q.gabbay_advisor = 1;
+Q.peretz_advisor = 1;
+
 !}
 set-bg: img/map_2.jpg
 new-page: true
