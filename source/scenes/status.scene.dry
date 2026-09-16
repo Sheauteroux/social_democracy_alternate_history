@@ -37,7 +37,7 @@ President: [+ president +]
 
 Prime Minister: [+ chancellor +] ([+ chancellor_party +])
 
-Knesset composition:
+nesset composition:
 
 # 1928: 9, 1930: 5
 {!<span class="tooltip-text" title="Likud – National Liberal Movement">Likud</span>!}: [+ likud_r +]%
